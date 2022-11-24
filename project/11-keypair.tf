@@ -1,0 +1,10 @@
+resource "aws_key_pair" "kp1" {
+  key_name   = "kp1"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQBC+uiP8RmtmXJhzYkLMko6b0/hq71VdRYJuxZzSeCxwCZHpq2U4agUVdDn7AoHjQljozKAqJ+vYoXjnpahRzhiOPzjjsyKo5fkZzgc3wjXi9NElLGESwQeIruID09SQ3Fjuk5e6kGW2wbYDYa6qTA8AHw6W2cOcFaSJxk3uqcn41skvWYaFd2HizSnftYhK8jNl0amIz9COzrINglnJHWgyIxNV5n5vBuzFBkUX07N7JeJvJYGRrKA98YB39cZ8rXiPDEmI/34mJ0G9TdA77KgD7eJWZtZlF7q3/H6kwKTOxa9xOjVLFEUcf4YvhibTTNhOgCjiiS9jUE83ei/85j7"
+}
+
+resource "aws_key_pair" "kp2" {
+  key_name   = "kp2"
+  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQBC+uiP8RmtmXJhzYkLMko6b0/hq71VdRYJuxZzSeCxwCZHpq2U4agUVdDn7AoHjQljozKAqJ+vYoXjnpahRzhiOPzjjsyKo5fkZzgc3wjXi9NElLGESwQeIruID09SQ3Fjuk5e6kGW2wbYDYa6qTA8AHw6W2cOcFaSJxk3uqcn41skvWYaFd2HizSnftYhK8jNl0amIz9COzrINglnJHWgyIxNV5n5vBuzFBkUX07N7JeJvJYGRrKA98YB39cZ8rXiPDEmI/34mJ0G9TdA77KgD7eJWZtZlF7q3/H6kwKTOxa9xOjVLFEUcf4YvhibTTNhOgCjiiS9jUE83ei/85j7"
+}
+
